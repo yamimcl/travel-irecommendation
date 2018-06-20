@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7E4944020DAE22D003171A3 /* titletravel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E4943F20DAE22D003171A3 /* titletravel.swift */; };
+		B7E4944220DAE270003171A3 /* recommendationtravel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E4944120DAE270003171A3 /* recommendationtravel.swift */; };
 		B7F1F5A920DACBFA007F6CD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F1F5A820DACBFA007F6CD4 /* AppDelegate.swift */; };
 		B7F1F5AB20DACBFA007F6CD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F1F5AA20DACBFA007F6CD4 /* ViewController.swift */; };
 		B7F1F5AE20DACBFA007F6CD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F1F5AC20DACBFA007F6CD4 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B7E4943F20DAE22D003171A3 /* titletravel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = titletravel.swift; sourceTree = "<group>"; };
+		B7E4944120DAE270003171A3 /* recommendationtravel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recommendationtravel.swift; sourceTree = "<group>"; };
 		B7F1F5A520DACBFA007F6CD4 /* irecommendtravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = irecommendtravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F1F5A820DACBFA007F6CD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7F1F5AA20DACBFA007F6CD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				B7F1F5A820DACBFA007F6CD4 /* AppDelegate.swift */,
 				B7F1F5AA20DACBFA007F6CD4 /* ViewController.swift */,
 				B7F1F5AC20DACBFA007F6CD4 /* Main.storyboard */,
+				B7E4944120DAE270003171A3 /* recommendationtravel.swift */,
+				B7E4943F20DAE22D003171A3 /* titletravel.swift */,
 				B7F1F5AF20DACBFA007F6CD4 /* Assets.xcassets */,
 				B7F1F5B120DACBFA007F6CD4 /* LaunchScreen.storyboard */,
 				B7F1F5B420DACBFA007F6CD4 /* Info.plist */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E4944220DAE270003171A3 /* recommendationtravel.swift in Sources */,
 				B7F1F5AB20DACBFA007F6CD4 /* ViewController.swift in Sources */,
+				B7E4944020DAE22D003171A3 /* titletravel.swift in Sources */,
 				B7F1F5A920DACBFA007F6CD4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				B7F1F5B920DACBFA007F6CD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
